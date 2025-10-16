@@ -1,0 +1,38 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environment ===
+env/
+venv/
+.venv/
+
+# === Jupyter & cache files ===
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_tmp
+
+# === Data / Temporary files ===
+*.csv
+*.xls
+*.xlsx
+*.ods
+*.tmp
+*.log
+
+# === Figures / Plots (keep only final) ===
+figures/*.png
+!figures/lab3_task*.png  # исключаем только финальные графики из удаления
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === Git ===
+.gitignore
